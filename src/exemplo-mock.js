@@ -6,6 +6,10 @@ function realizarParaAdultos(pessoas, callback) {
   }
 }
 
+function subtrair(a, b) {
+  return a - b;
+}
+
 function aguardarTimer(callback) {
   setTimeout(() => {
     callback();
@@ -15,4 +19,5 @@ function aguardarTimer(callback) {
 module.exports = {
   realizarParaAdultos,
   aguardarTimer,
+  subtrair,
 };
